@@ -1,0 +1,263 @@
+.kicsi_kezdo{
+    font-weight: bold;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+        ),
+        url("képek/hatter1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.navbar_kicsi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar_kicsi a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar gombok */
+.navbar_kicsi li {
+  padding: 12px 28px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  list-style: none;
+}
+
+.navbar_kicsi li:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.kicsi_cim{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MOBIL RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .kicsi_cim {
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+  .szemelyek {
+    margin: 20px 10px;
+    padding: 30px;
+  }
+  
+  .profilkep {
+    width: 200px;
+  }
+  
+  .r_szoveg {
+    font-size: 16px;
+  }
+  
+  .szolgaltatas {
+    margin: 20px;
+  }
+  
+  .szolgaltatas img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kicsi_kezdo {
+    padding-bottom: 20px;
+  }
+  
+  .kicsi_cim {
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  .rolunk_tartalom {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .szemelyek {
+    margin: 15px 10px;
+    padding: 20px;
+  }
+  
+  .profilkep {
+    width: 150px;
+  }
+  
+  .r_szoveg {
+    font-size: 15px;
+  }
+  
+  .r_csinalas {
+    flex-wrap: wrap;
+  }
+  
+  .r_csinalas p {
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  .n_container_szolg {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .container_szolg1 {
+    width: 90%;
+  }
+  
+  .szolgaltatas {
+    margin: 15px;
+  }
+  
+  .szolgaltatas img {
+    height: 200px;
+  }
+  
+  .szolgaltatas p {
+    font-size: 16px;
+  }
+  
+  .energy {
+    padding: 15px;
+    margin: 15px;
+  }
+  
+  .energy_k {
+    width: 90%;
+  }
+  
+  .energy p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .adatok {
+    flex-direction: column;
+    padding: 8px 15px;
+    font-size: 12px;
+    gap: 8px;
+  }
+  
+  .kicsi_cim {
+    font-size: 20px;
+    padding: 12px;
+  }
+  
+  .vonal {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .rolunk_tartalom {
+    margin-top: 10px;
+  }
+  
+  .szemelyek {
+    margin: 10px 5px;
+    padding: 15px;
+    border: 2px solid #737d4d;
+  }
+  
+  .profilkep {
+    width: 120px;
+  }
+  
+  .szemelyek h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .r_szoveg {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .r_csinalas {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .r_csinalas p {
+    font-size: 12px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .container_szolg1 {
+    width: 95%;
+  }
+  
+  .n_container_szolg {
+    padding: 0 10px;
+  }
+  
+  .szolgaltatas {
+    margin: 10px 0;
+    border: 2px solid black;
+  }
+  
+  .szolgaltatas img {
+    height: 150px;
+  }
+  
+  .szolgaltatas h1 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .szolgaltatas p {
+    font-size: 13px;
+  }
+  
+  .energy {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .energy h1 {
+    font-size: 20px;
+  }
+  
+  .energy_k {
+    width: 100%;
+  }
+  
+  .energy p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .energy-img {
+    max-width: 100%;
+    margin: 15px 0;
+  }
+  
+  .catalog-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
